@@ -7,95 +7,145 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
+    height: 90px;
+    width: 100%;
+}
+
+.container {
+    padding: 0px 90px;
+}
+
+.logtct {
+    display: flex;
+    width: 250px;
+    height: 50px;
+    padding: 5px 10px 25px 0px;
 }
 
 .logo {
     font-family: Philosopher;
-    font-size: 45.04px;
-    font-weight: 700;
-    margin: 10px 20px 10px 10px;
-    line-height: 49.78px;
+    font-size: 35px;
+    font-weight: 650;
+    margin: 0px 20px 10px 5px;
+    line-height: 50px;
+    letter-spacing: 1px;
     text-align: left;
-    width: 201px;
-    height: 50px;
-    left: 48.9px;
-    gap: 0px;
-    opacity: 0px;
-
     color: #0060A2;
 }
 
 .log1 {
-    height: 35px;
-    width: 25px;
-    margin-left: 50px;
-
+    height: 30px;
+    width: 24px;
+    padding: 10px;
 }
 
 .search-box {
     display: flex;
-    width: 100%;
-    border: 1px solid black;
+    width: 680px;
+    height: 35px;
+    margin: 0px 20px 15px 0px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding-top: 2px;
 }
 
 .search-box input {
-    padding: 5px;
-    margin-right: 20px;
-    margin-left: 20px;
+    padding: 5px ;
+    border: none;
+    font-size: 14px;
 }
 
 .menu {
-    padding: 10px;
-    margin: 10px;
-    display: inline;
+    padding: 0px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
+    display: flex;
     cursor: pointer;
     text-decoration: none;
     color: black;
+    text-align: center;
+    align-items: center;
+}
+
+.menu1 {
+    padding-right: 10px;
+}
+
+.menu4 {
+    padding: 10px 5px 10px 15px;
+    color: grey;
 }
 
 .menu2 {
-    padding: 10px;
-    margin: 10px;
-    display: inline;
+    display: flex;
     text-decoration: none;
     color: black;
-    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .categories {
-    margin-right: 10px;
-    position: absolute;
-    right: 33px;
-    
+    display: flex;
 }
 
 .categories1 {
-    margin-right: 80px;
     cursor: pointer;
     text-decoration: none;
-    position: relative;
-    width : 150%;
     display: flex;
-    top: 33px;
-    left: -490px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 55px;
+    position: absolute;
+    width: 1060px;
+    left: 100px;
+    top: 65px;
+
 
 }
 
-
-/*for mobile*/
-@media (max-width: 600px) {
+/*  mobile */
+@media (max-width: 767px) {
+    .container {
+      padding: 0 20px; 
+    }
+  
+    .logtct {
+      width: auto;
+    }
+  
     .logo {
-        font-size: 20px;
+      font-size: 25px;
+      margin: 0; 
     }
-
+  
     .search-box {
-        flex-direction: column;
+      width: calc(100% - 20%);
+      margin: 0 20px 15px 0; 
     }
-
-    .search-box input {
-        margin-right: 0;
-        margin-bottom: 10px;
+  
+    .categories {
+      flex-wrap: wrap;
+      justify-content: center; 
     }
-}
+  
+    .menu {
+      margin: 0 5px; 
+    }
+  
+    .categories1 {
+      visibility: hidden;
+    }
+  }
+  
+  /* tablet  */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      padding: 0 50px; 
+    }
+  
+    .categories1 {
+      width: 100%; 
+      justify-content: center;
+    }
+  }
+  
