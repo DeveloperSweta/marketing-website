@@ -13,10 +13,10 @@ function App() {
     <div className="App">
       <Header/>
       <Craftm/>
-      <ProductsSection headline='Most Popular Product' productsData={popularProducts}/>
-      <ProductsSection headline='Trending Product' productsData={trendingProducts}/>
-      <ProductsSection headline='New Arrival' productsData={newProducts}/>
-      <ProductsSection headline='Explore More' productsData={exploremoreProducts}/>
+      <ProductsSection headline='Most Popular Product' ViewMore='View More' productsData={popularProducts}/>
+      <ProductsSection headline='Trending Product' ViewMore='View More' productsData={trendingProducts}/>
+      <ProductsSection headline='New Arrival' ViewMore='View More' productsData={newProducts}/>
+      <ProductsSection headline='Explore More' ViewMore='View More' productsData={exploremoreProducts}/>
       <Footer/>
     </div>
   );

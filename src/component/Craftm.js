@@ -1,7 +1,5 @@
 import React from 'react'
 import '../style/Craftm.css'
-import book from '../img/book.jpeg'
-import book2 from '../img/book2.jpeg'
 
 
 function Craftm() {

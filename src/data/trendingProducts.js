@@ -1,4 +1,9 @@
-export const trendingProducts = [{url:'', title:'Flyer'},
-                                 {url:'', title:'Paper Sleeev'},
-                                 {url:'', title:'Holographic stickers'},
-                                 {url:'', title:'Vinyl Sticker'}]
+import flyer from '../img/flyer.png';
+import paper from '../img/paper.png'
+import holographic from '../img/holographic.png'
+import viny from '../img/viny.png'
+
+export const trendingProducts = [{url:flyer, title:'Flyer'},
+                                 {url:paper, title:'Paper Sleeev'},
+                                 {url:holographic, title:'Holographic stickers'},
+                                 {url:viny, title:'Vinyl Sticker'}]

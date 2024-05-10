@@ -1,6 +1,72 @@
 .popular-product {
     text-align: center;
-    margin: 20px 30px 20px 30px;
+    align-items: center;
+    justify-content:space-evenly;
+    display: grid;
+    padding: 0 90px 0 0;
+}
+
+.container{
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.viw{
+    text-decoration: none;
+    font-size: 20px;
+    position:relative;
+    left: 550px;
+    top:-45px;
+    color: #0060A2;
+}
+
+.aro2{
+    position: relative;
+    top: 4px;
+    left: 5px;
+    height: 25px;
+    width: 25px;
+    color: #0060A2;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.aro{
+    position: relative;
+    top: 190px;
+    left: -734px;
+    background-color: rgb(215, 215, 215);
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.crpt {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    gap: 15px;
+    padding-right: 10px;
+    justify-content: space-around;
+}
+
+.row p {
+    margin-top: 20px;
+    position: absolute;
+    font-weight: bold;
+    justify-content: start;
+    padding: 290px;
+}
+
+.fphvh{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: left;
+    text-align: left;
 }
 
 @media screen and (min-width: 768px) {
@@ -11,16 +77,10 @@
     }
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 .row img {
     position: relative;
     justify-content: space-between;
-    gap: 10px;
+    padding: 50px 0 0 0;
     display: flex;
     width: 350px;
 }
@@ -35,13 +95,13 @@
     top: 60px;
     left: 120px;
     gap: 0px;
+    position: relative;
     opacity: 0px;
     font-family: Poppins;
     font-size: 32px;
     font-weight: 500;
     line-height: 48px;
     text-align: left;
-    margin-left: 20px;
 }
 
 .vpop {
@@ -57,22 +117,6 @@
     color: #0060A2;
     text-decoration: none;
     margin: 40px;
-}
-
-.row p {
-    margin-top: 20px;
-    position: absolute;
-    bottom: -235px;
-    font-weight: bold;
-}
-
-.crpt {
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    gap: 15px;
-    padding-right: 10px;
-    justify-content: space-around;
 }
 
 .popular{

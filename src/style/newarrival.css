@@ -6,6 +6,18 @@
     opacity: 0px;
 }
 
+.row p {
+    margin-top: 20px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.fphvh{
+    display: flex;
+    flex-wrap: wrap;
+    top: 1010px;
+}
+
 @media screen and (min-width: 768px) {
     .popular-product {
         width: 33.33%;
